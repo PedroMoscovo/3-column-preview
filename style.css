@@ -74,7 +74,7 @@ position: absolute; bottom: 0; left:0; right:0;}
 .btn{
     text-decoration: none;
     display:inline-block;
-    color: var(--transparent-white);
+    background: var(--very-light-gray);
     padding: 15px 30px;
     border: 2px solid var(--transparent-white);
     border-radius: 50px;
@@ -83,17 +83,22 @@ position: absolute; bottom: 0; left:0; right:0;}
     transition: 0.3s all ease;
 }
 
+.btn-1 {color:var(--primary-orange)}
+.btn-2 {color:var(--primary-dk-cyan)}
+.btn-3 {color:var(--primary-vdk-cyan)}
+
+
 .btn-1:hover{
-    background: var(--very-light-gray);
-    color: var(--primary-orange);
+    background: none;
+    color: var(--very-light-gray);
 }
 .btn-2:hover{
-    background: var(--very-light-gray);
-    color: var(--primary-dk-cyan);
+    background: none;
+    color: var(--very-light-gray);
 }
 .btn-3:hover{
-    background: var(--very-light-gray);
-    color: var(--primary-vdk-cyan);
+    background: none;
+    color: var(--very-light-gray);
 }
 
 /* Main Section */
